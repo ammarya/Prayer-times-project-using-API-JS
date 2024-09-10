@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <title>Prayer Times using API</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- City Name + Date -->
+    <div class="cityName-Date">
+      <!-- City Name -->
+      <div class="cityName">
+        <h1 id="city-name">Zürich</h1>
+      </div>
+      <!--// City Name //-->
+      <!-- Date -->
+      <div class="date" id="date"></div>
+      <!--// Date //-->
+    </div>
+    <!--// City Name + Date //-->
+    <hr>
+    <!-- Prayer Timings -->
+    <div class="prayer-timings center">
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Fajr</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time " id="fajr-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Sunrise</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time " id="sunrise-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Dhuhr</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time" id="dhuhr-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Asr</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time " id="asr-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Maghrib</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time " id="maghrib-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+      <!-- Card -->
+      <div class="cards">
+        <div class="header">
+          <h1>Ishaa</h1>
+        </div>
+        <div class="body center">
+          <h1 class="time " id="ishaa-time"></h1>
+        </div>
+      </div>
+      <!--// Card //-->
+    </div>
+    <!--// Prayer Timings //-->
+    <!-- Change City Select -->
+    <div class="change-city-select center">
+      <select name="" id="cities-select">
+      </select>
+    </div>
+    <!--// Change City Select //-->
+  </div>
+
+
+
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

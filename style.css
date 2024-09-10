@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #240165, #05001c);
+  font-family: "Kode Mono", system-ui;
+
+}
+
+.container {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.cityName-Date {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.cityName {
+  font-size: 40px;
+  color: white;
+
+}
+
+.cityName h1 {
+  font-weight: 400;
+}
+
+
+.date {
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+
+}
+
+
+hr {
+  margin: 0 40px;
+  border-color: #5200e1;
+}
+
+.prayer-timings {
+  height: 300px;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 12%;
+  height: 50%;
+  background-color: white;
+  font-size: 15px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 30%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.cards .header {
+  background: linear-gradient(45deg, #5709ee, #7a37bf);
+  color: white;
+
+}
+
+
+.cards .header h1 {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.cards .body {
+  height: 50%;
+
+}
+
+.body .time {
+  font-size: 40px;
+}
+
+select {
+  width: 300px;
+  height: 35px;
+  font-family: "Kode Mono", system-ui;
+  font-size: 17px;
+  font-weight: 500;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+option {
+  background-color: #240165;
+  color: white;
+}
